@@ -24,7 +24,7 @@ public class EjercicioMenor {
 		System.out.println("El menor elemento del vector es "+ 
 						FuncionesVectores.devuelveMenor(numeros));
 		//int menor = FuncionesVectores.devuelveMenor(numeros);
-//		System.out.println("EL menor es "+ menor);
+		//System.out.println("EL menor es "+ menor);
 		
 		
 
