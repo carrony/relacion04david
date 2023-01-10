@@ -215,6 +215,17 @@ public class FuncionesVectores {
 		return v3;
 	}
 	
+	public static double productoEscalar(double v1[], double v2[]) {
+		if (v1.length!=v2.length) {
+			return Double.NaN;
+		}
+		
+		double suma=0;
+		for (int i = 0; i < v1.length; i++) {
+			suma = suma + v1[i]*v2[i];
+		}
+		return suma;
+	}
 	
 	
 	
